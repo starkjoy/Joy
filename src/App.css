@@ -375,7 +375,7 @@ a:active {
 
   /* Hero Section */
   .hero {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   .hero-main {
@@ -429,7 +429,7 @@ a:active {
 
   /* Contact */
 
-  .contact , .gallery{
+  .contact , .gallery, .hero{
     display: flex;
     align-items: center;
     justify-content: center;
