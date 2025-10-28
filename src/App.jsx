@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import BackToTop from './components/BackToTop';
+
 
 function App() {
 
@@ -93,6 +95,7 @@ function App() {
           <a className='menu-contact' href='#contact'>Contact</a>
         </div>
       </section>}
+      <BackToTop />
     </div>
   )
 }
