@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px; 
+  font-family: Montserrat;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #171717;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.5rem;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  background-color: #171717;
+  top: 0;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 3rem;
+  margin: 0.8rem 1.5rem;
+}
+
+.nav-logo {
+  width: 3.5rem;
+}
+
+.hero {
+  margin-top: 6rem;
+  height: 100vh;
+}
+
+.hero-container {
+  margin: 0.8rem 1.5rem;
+}
+
+.hero-main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 16rem;
+}
+
+.hero-main > p {
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 9.5rem;
+  line-height: 2.2rem;
+}
+
+.hero-highlight {
+  position: absolute;
+  width: 20rem;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.description-pri {
+  color: #8DCB04;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 15rem;
+}
+
+.description-sec {
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 200;
+}
+
+.gallery {
+  /* height: 100vh; */
+  margin-bottom: 10rem;
+}
+
+.gallery-container {
+  margin: 0.8rem 1.5rem;
+}
+
+.gallery-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 4rem 0;
+  font-family: 'Times New Roman';
+  line-height: 1.8rem;
+}
+
+.gallery-main > p {
+  width: 15rem;
+}
+
+.gallery-highlight {
+  font-style: italic;
+  color: #8DCB04;
+}
+
+.services {
+  width: 20rem;
+}
+
+.gallery-slides {
+  height: 100%;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+}
+
+.contact {
+  /* border: 2px solid red; */
+  height: 100vh;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 1.5rem;
+  text-align: center;
+}
+
+.contact-main {
+  color: #8DCB04;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 15rem;
+  margin-bottom: 4rem;
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1D1D1D;
+  width: 18rem;
+  height: 12rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.call-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1D1D1D;
+  width: 18rem;
+  height: 12rem;
+  border-radius: 1rem;
+}
+
+.mail-icon, .call-icon {
+  width: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.contact-label {
+  font-size: 0.9rem;
+}
+
+.contact-highlight {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #8DCB04;
+}
+
+.appreciation {
+  height: 100vh;
+}
+
+.appreciation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 1.5rem;
+  text-align: center;
+}
+
+.appreciation-text {
+  font-family: 'Playwrite US Trad';
+  padding: 3rem 0;
+  font-size: 1.5rem;
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.gift-thanks {
+  width: 12rem;
+}
+
+.gift-container {
+  background-color: #1D1D1D;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.gift-icon {
+  padding: 2rem;
+}
+
+.thanks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.4rem solid #1D1D1D;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1rem;
+}
+
+.thanks-highlight {
+  color: #8DCB04;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.thanks-emphasis {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.menu-overlay {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: #8DCB04;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.8rem 1.5rem;
+  padding: 1rem;
+}
+
+.menu-gallery, .menu-contact {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #171717;
+  font-weight: 600;
+}
+
+.menu-gallery {
+  margin-bottom: 1rem;
+}
+
+.menu-contact {
+  text-decoration: underline dashed;
+  text-underline-offset: 0.5rem;
+}
+
+a:active {
+  color: none;
+}
