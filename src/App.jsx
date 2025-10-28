@@ -21,13 +21,19 @@ function App() {
           { menuOpen && <img className='nav-logo' src='/j-dark.svg'/>}
           { !menuOpen &&<img onClick={handleMenuOpen} className='nav-options' src='/option.svg'/>}
           { menuOpen &&<img onClick={handleMenuClose} className='nav-options' src='/close.svg'/>}
+          <div className='menu-container2'>
+            <a className='menu-gallery' href='#gallery'>Services</a>
+            <a className='menu-contact' href='#contact'>Contact</a>
+          </div>
         </div>
       </section>
       <section className='hero'>
         <div className='hero-container'>
           <div className='hero-main'>
-            <p>Whatever it is, we'll talk through it</p>
+            <p className='hero-main-mob'>Whatever it is, we'll talk through it</p>
+            <p className='hero-main-desk'>Whatever it is, we’ll talk through it—<span className='hero-text-highlight'>I’m here to design for you.</span></p>
             <img className='hero-highlight' src='/highlight.svg'/>
+            <img className='hero-highlight2' src='/highlight1.svg'/>
           </div>
           <div className='hero-description'>
             <p className='description-pri'>I'm here to design for you.</p>
@@ -43,6 +49,7 @@ function App() {
           </div>
           <div className='gallery-slides'>
             <img src='/services-m.svg' className='services'/>
+            <img src='/services-d.svg' className='services1'/>
           </div>
         </div>
       </section>
@@ -73,6 +80,7 @@ function App() {
               </div>
               <div className='thanks-container'>
                 <p className='thanks-highlight'>Thank <br/> you</p>
+                <p className='thanks-highlight2'>Thank you</p>
                 <p className='thanks-emphasis'>For taking the time to scroll through</p>
               </div>
             </div>
